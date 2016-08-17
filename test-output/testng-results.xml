@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="97" started-at="2016-08-16T19:30:07Z" finished-at="2016-08-16T19:30:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="97" started-at="2016-08-16T19:30:07Z" finished-at="2016-08-16T19:30:07Z">
+      <class name="UnitTests.RunConfigurationTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:UnitTests.RunConfigurationTests@c7a4e4]" name="setUp" is-config="true" duration-ms="23" started-at="2016-08-16T14:30:07Z" finished-at="2016-08-16T14:30:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testIEBrowserPath()[pri:0, instance:UnitTests.RunConfigurationTests@c7a4e4]" name="testIEBrowserPath" duration-ms="23" started-at="2016-08-16T14:30:07Z" finished-at="2016-08-16T14:30:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIEBrowserPath -->
+        <test-method status="PASS" signature="testPageLoadTimeout()[pri:0, instance:UnitTests.RunConfigurationTests@c7a4e4]" name="testPageLoadTimeout" duration-ms="3" started-at="2016-08-16T14:30:07Z" finished-at="2016-08-16T14:30:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageLoadTimeout -->
+      </class> <!-- UnitTests.RunConfigurationTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
