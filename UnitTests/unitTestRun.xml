@@ -1,0 +1,8 @@
+<suite name="UnitTestsDataProvider" verbose="1">
+	<test name="DataProviderTests">
+		<classes>
+			<class name="UnitTests.RunConfigurationTests"/>
+			<class name="UnitTests.TestDataProviderTests"/>
+		</classes>
+	</test>
+</suite>
