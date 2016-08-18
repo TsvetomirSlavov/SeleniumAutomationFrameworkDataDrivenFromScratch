@@ -9,7 +9,9 @@ public class HomePageObjectModel {
 	@FindBy(how = How.CLASS_NAME, using = "account_icon")
 	private WebElement myAccountLink;
 	
-	public boolean isMyAccountClickable(){
+	
+	public boolean isMyAccountLinkClickable(){
+		//Verify that my account is clickable
 		if(myAccountLink.isEnabled()){
 			return true;
 		}
@@ -17,6 +19,19 @@ public class HomePageObjectModel {
 			return false;
 		}
 	}
+	
+	public boolean isMyAccountLinkDisplayed(){
+		//Verify that my account is present on the homepage
+		if(myAccountLink.isDisplayed()){
+			return true;
+		}
+		else{
+			return false;
+		}
+	}
+	
+	
+	
 	
 	
 	
