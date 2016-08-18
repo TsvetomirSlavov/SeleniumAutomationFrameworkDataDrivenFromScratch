@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [UnitTestsDataProvider]">
+  <test name="DataProviderTests(failed)">
+    <classes>
+      <class name="UnitTests.RunConfigurationTests">
+        <methods>
+          <include name="testIEBrowserPath"/>
+          <include name="testPageLoadTimeout"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- UnitTests.RunConfigurationTests -->
+      <class name="UnitTests.TestDataProviderTests">
+        <methods>
+          <include name="testUserName"/>
+          <include name="testProductID"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- UnitTests.TestDataProviderTests -->
+    </classes>
+  </test> <!-- DataProviderTests(failed) -->
+</suite> <!-- Failed suite [UnitTestsDataProvider] -->

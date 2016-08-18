@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="97" started-at="2016-08-16T19:30:07Z" finished-at="2016-08-16T19:30:07Z">
+  <suite name="Default suite" duration-ms="1161" started-at="2016-08-17T07:15:20Z" finished-at="2016-08-17T07:15:21Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="97" started-at="2016-08-16T19:30:07Z" finished-at="2016-08-16T19:30:07Z">
-      <class name="UnitTests.RunConfigurationTests">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:UnitTests.RunConfigurationTests@c7a4e4]" name="setUp" is-config="true" duration-ms="23" started-at="2016-08-16T14:30:07Z" finished-at="2016-08-16T14:30:07Z">
+    <test name="Default test" duration-ms="1161" started-at="2016-08-17T07:15:20Z" finished-at="2016-08-17T07:15:21Z">
+      <class name="UnitTests.TestDataProviderTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:UnitTests.TestDataProviderTests@1aeed2f]" name="setUp" is-config="true" duration-ms="1065" started-at="2016-08-17T02:15:20Z" finished-at="2016-08-17T02:15:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testIEBrowserPath()[pri:0, instance:UnitTests.RunConfigurationTests@c7a4e4]" name="testIEBrowserPath" duration-ms="23" started-at="2016-08-16T14:30:07Z" finished-at="2016-08-16T14:30:07Z">
+        <test-method status="PASS" signature="testProductID()[pri:0, instance:UnitTests.TestDataProviderTests@1aeed2f]" name="testProductID" duration-ms="48" started-at="2016-08-17T02:15:21Z" finished-at="2016-08-17T02:15:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testIEBrowserPath -->
-        <test-method status="PASS" signature="testPageLoadTimeout()[pri:0, instance:UnitTests.RunConfigurationTests@c7a4e4]" name="testPageLoadTimeout" duration-ms="3" started-at="2016-08-16T14:30:07Z" finished-at="2016-08-16T14:30:07Z">
+        </test-method> <!-- testProductID -->
+        <test-method status="PASS" signature="testUserName()[pri:0, instance:UnitTests.TestDataProviderTests@1aeed2f]" name="testUserName" duration-ms="6" started-at="2016-08-17T02:15:21Z" finished-at="2016-08-17T02:15:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPageLoadTimeout -->
-      </class> <!-- UnitTests.RunConfigurationTests -->
+        </test-method> <!-- testUserName -->
+      </class> <!-- UnitTests.TestDataProviderTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
