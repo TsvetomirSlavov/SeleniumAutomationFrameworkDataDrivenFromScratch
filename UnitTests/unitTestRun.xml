@@ -3,6 +3,8 @@
 		<classes>
 			<class name="UnitTests.RunConfigurationTests"/>
 			<class name="UnitTests.TestDataProviderTests"/>
+			<class name="UnitTests.BrowserFactoryTests"/>
+			<class name="UnitTests.DataProviderFactoryTests"/>
 		</classes>
 	</test>
 </suite>

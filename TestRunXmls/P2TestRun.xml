@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!--  I was getting an error because groups node must come before classes node, not the oposite -->
+<suite name="P2 Tests" verbose="1" >
+
+	<test name="P2 Test Run">
+		<groups>
+			<run>
+				<include name="P2">
+				</include>			
+			</run>
+		</groups>
+		<classes>
+			<class name="Tests.HomePageTests.HomePageTests"/>
+			<class name="Tests.LoginTests.LoginTests"/>
+		</classes>				
+	</test>	
+</suite>

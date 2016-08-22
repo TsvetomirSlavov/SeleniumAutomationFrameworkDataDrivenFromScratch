@@ -1,25 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1161" started-at="2016-08-17T07:15:20Z" finished-at="2016-08-17T07:15:21Z">
+  <suite name="P2 Tests" duration-ms="8060" started-at="2016-08-22T00:13:36Z" finished-at="2016-08-22T00:13:44Z">
     <groups>
+      <group name="P2">
+        <method signature="HomePageTests.verifyLoginNavigation()[pri:0, instance:Tests.HomePageTests.HomePageTests@a50da]" name="verifyLoginNavigation" class="Tests.HomePageTests.HomePageTests"/>
+      </group> <!-- P2 -->
     </groups>
-    <test name="Default test" duration-ms="1161" started-at="2016-08-17T07:15:20Z" finished-at="2016-08-17T07:15:21Z">
-      <class name="UnitTests.TestDataProviderTests">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:UnitTests.TestDataProviderTests@1aeed2f]" name="setUp" is-config="true" duration-ms="1065" started-at="2016-08-17T02:15:20Z" finished-at="2016-08-17T02:15:21Z">
+    <test name="P2 Test Run" duration-ms="8060" started-at="2016-08-22T00:13:36Z" finished-at="2016-08-22T00:13:44Z">
+      <class name="Tests.HomePageTests.HomePageTests">
+        <test-method status="PASS" signature="verifyLoginNavigation()[pri:0, instance:Tests.HomePageTests.HomePageTests@a50da]" name="verifyLoginNavigation" duration-ms="8051" started-at="2016-08-21T19:13:36Z" finished-at="2016-08-21T19:13:44Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testProductID()[pri:0, instance:UnitTests.TestDataProviderTests@1aeed2f]" name="testProductID" duration-ms="48" started-at="2016-08-17T02:15:21Z" finished-at="2016-08-17T02:15:21Z">
+        </test-method> <!-- verifyLoginNavigation -->
+      </class> <!-- Tests.HomePageTests.HomePageTests -->
+    </test> <!-- P2 Test Run -->
+  </suite> <!-- P2 Tests -->
+  <suite name="P1 Tests" duration-ms="37992" started-at="2016-08-22T00:12:58Z" finished-at="2016-08-22T00:13:36Z">
+    <groups>
+      <group name="P1">
+        <method signature="HomePageTests.verifyMyAccountLinkPresent()[pri:0, instance:Tests.HomePageTests.HomePageTests@1bb8443]" name="verifyMyAccountLinkPresent" class="Tests.HomePageTests.HomePageTests"/>
+        <method signature="LoginTests.invalidLogin()[pri:0, instance:Tests.LoginTests.LoginTests@44d69d]" name="invalidLogin" class="Tests.LoginTests.LoginTests"/>
+      </group> <!-- P1 -->
+    </groups>
+    <test name="P1 Test Run" duration-ms="37992" started-at="2016-08-22T00:12:58Z" finished-at="2016-08-22T00:13:36Z">
+      <class name="Tests.HomePageTests.HomePageTests">
+        <test-method status="PASS" signature="verifyMyAccountLinkPresent()[pri:0, instance:Tests.HomePageTests.HomePageTests@1bb8443]" name="verifyMyAccountLinkPresent" duration-ms="29198" started-at="2016-08-21T19:12:58Z" finished-at="2016-08-21T19:13:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testProductID -->
-        <test-method status="PASS" signature="testUserName()[pri:0, instance:UnitTests.TestDataProviderTests@1aeed2f]" name="testUserName" duration-ms="6" started-at="2016-08-17T02:15:21Z" finished-at="2016-08-17T02:15:21Z">
+        </test-method> <!-- verifyMyAccountLinkPresent -->
+      </class> <!-- Tests.HomePageTests.HomePageTests -->
+      <class name="Tests.LoginTests.LoginTests">
+        <test-method status="PASS" signature="invalidLogin()[pri:0, instance:Tests.LoginTests.LoginTests@44d69d]" name="invalidLogin" duration-ms="8696" started-at="2016-08-21T19:13:28Z" finished-at="2016-08-21T19:13:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testUserName -->
-      </class> <!-- UnitTests.TestDataProviderTests -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- invalidLogin -->
+      </class> <!-- Tests.LoginTests.LoginTests -->
+    </test> <!-- P1 Test Run -->
+  </suite> <!-- P1 Tests -->
 </testng-results>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [P2 Tests]">
+  <test name="P2 Test Run(failed)">
+    <groups>
+      <run>
+        <include name="P2"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Tests.HomePageTests.HomePageTests">
+        <methods>
+          <include name="verifyLoginNavigation"/>
+        </methods>
+      </class> <!-- Tests.HomePageTests.HomePageTests -->
+    </classes>
+  </test> <!-- P2 Test Run(failed) -->
+</suite> <!-- Failed suite [P2 Tests] -->

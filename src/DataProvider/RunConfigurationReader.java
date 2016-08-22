@@ -8,6 +8,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 
+import org.testng.util.Strings;
+
 /*
  * Purpose: This class helps us read the framework.properties file
  * And it will help us get the data from the mentioned file
@@ -70,7 +72,15 @@ public class RunConfigurationReader {
 		return propertyFile.getProperty("ChromeServerPath");
 	}
 	
-	
+	public List<String> getRunXmls(){
+		String runXMLs = propertyFile.getProperty("runXMLs");
+		List<String> listOfRunXmls = new ArrayList<String>();
+		for(String runXML : runXMLs.split(",")){
+			//One way to solve it to find properly the xml files path or directly in the properties file
+			listOfRunXmls.add("TestRunXmls\\" + runXML);
+		}
+		return listOfRunXmls;
+	}
 	
 	
 	
