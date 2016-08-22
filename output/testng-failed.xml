@@ -3,6 +3,12 @@
 <suite name="Failed suite [UnitTestsDataProvider]">
   <test name="DataProviderTests(failed)">
     <classes>
+      <class name="UnitTests.DataProviderFactoryTests">
+        <methods>
+          <include name="dataProviderInitTests"/>
+          <include name="dataProviderInstaceTest"/>
+        </methods>
+      </class> <!-- UnitTests.DataProviderFactoryTests -->
       <class name="UnitTests.RunConfigurationTests">
         <methods>
           <include name="testIEBrowserPath"/>
@@ -10,6 +16,12 @@
           <include name="setUp"/>
         </methods>
       </class> <!-- UnitTests.RunConfigurationTests -->
+      <class name="UnitTests.BrowserFactoryTests">
+        <methods>
+          <include name="browserFactoryWebDriverInstanceTest"/>
+          <include name="browserFactoryInitTest"/>
+        </methods>
+      </class> <!-- UnitTests.BrowserFactoryTests -->
       <class name="UnitTests.TestDataProviderTests">
         <methods>
           <include name="testUserName"/>

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>DataProviderTests</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/2/2</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/6/2</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Aug 17 02:14:37 CDT 2016</td>
+<td>Started on:</td><td>Sat Aug 20 02:14:41 CDT 2016</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (52 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (95 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -84,8 +84,8 @@ Caused by: java.lang.ClassNotFoundException: org.apache.poi.ss.usermodel.Cell
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
 	... 25 more
-... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace28383108", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace28383108'><pre>java.lang.NoClassDefFoundError: org/apache/poi/ss/usermodel/Cell
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace14403027", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace14403027'><pre>java.lang.NoClassDefFoundError: org/apache/poi/ss/usermodel/Cell
 	at UnitTests.TestDataProviderTests.setUp(TestDataProviderTests.java:18)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -119,7 +119,7 @@ Caused by: java.lang.ClassNotFoundException: org.apache.poi.ss.usermodel.Cell
 	... 25 more
 </pre></div></td>
 <td>0</td>
-<td>UnitTests.TestDataProviderTests@1f205aa</td></tr>
+<td>UnitTests.TestDataProviderTests@bfe836</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-failed'>
 <tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
@@ -128,6 +128,194 @@ Caused by: java.lang.ClassNotFoundException: org.apache.poi.ss.usermodel.Cell
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
+<tr>
+<td title='UnitTests.BrowserFactoryTests.browserFactoryInitTest()'><b>browserFactoryInitTest</b><br>Test class: UnitTests.BrowserFactoryTests</td>
+<td><div><pre>java.lang.NoClassDefFoundError: org/openqa/selenium/WebDriver
+	at UnitTests.BrowserFactoryTests.browserFactoryInitTest(BrowserFactoryTests.java:15)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.WebDriver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 25 more
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace3462719", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace3462719'><pre>java.lang.NoClassDefFoundError: org/openqa/selenium/WebDriver
+	at UnitTests.BrowserFactoryTests.browserFactoryInitTest(BrowserFactoryTests.java:15)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.TestNG.privateMain(TestNG.java:1366)
+	at org.testng.TestNG.main(TestNG.java:1335)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.WebDriver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 25 more
+</pre></div></td>
+<td>0</td>
+<td>UnitTests.BrowserFactoryTests@1f5659e</td></tr>
+<tr>
+<td title='UnitTests.BrowserFactoryTests.browserFactoryWebDriverInstanceTest()'><b>browserFactoryWebDriverInstanceTest</b><br>Test class: UnitTests.BrowserFactoryTests</td>
+<td><div><pre>java.lang.NoClassDefFoundError: org/openqa/selenium/WebDriver
+	at UnitTests.BrowserFactoryTests.browserFactoryWebDriverInstanceTest(BrowserFactoryTests.java:22)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.WebDriver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 25 more
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace14903735", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace14903735'><pre>java.lang.NoClassDefFoundError: org/openqa/selenium/WebDriver
+	at UnitTests.BrowserFactoryTests.browserFactoryWebDriverInstanceTest(BrowserFactoryTests.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.TestNG.privateMain(TestNG.java:1366)
+	at org.testng.TestNG.main(TestNG.java:1335)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.WebDriver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 25 more
+</pre></div></td>
+<td>0</td>
+<td>UnitTests.BrowserFactoryTests@1f5659e</td></tr>
+<tr>
+<td title='UnitTests.DataProviderFactoryTests.dataProviderInitTests()'><b>dataProviderInitTests</b><br>Test class: UnitTests.DataProviderFactoryTests</td>
+<td><div><pre>java.lang.NoClassDefFoundError: org/apache/poi/ss/usermodel/Cell
+	at Factories.DataProviderReaderFactory.getTestDataProvider(DataProviderReaderFactory.java:36)
+	at UnitTests.DataProviderFactoryTests.dataProviderInitTests(DataProviderFactoryTests.java:21)
+Caused by: java.lang.ClassNotFoundException: org.apache.poi.ss.usermodel.Cell
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 26 more
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace11514428", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace11514428'><pre>java.lang.NoClassDefFoundError: org/apache/poi/ss/usermodel/Cell
+	at Factories.DataProviderReaderFactory.getTestDataProvider(DataProviderReaderFactory.java:36)
+	at UnitTests.DataProviderFactoryTests.dataProviderInitTests(DataProviderFactoryTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.TestNG.privateMain(TestNG.java:1366)
+	at org.testng.TestNG.main(TestNG.java:1335)
+Caused by: java.lang.ClassNotFoundException: org.apache.poi.ss.usermodel.Cell
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 26 more
+</pre></div></td>
+<td>0</td>
+<td>UnitTests.DataProviderFactoryTests@1afea7d</td></tr>
+<tr>
+<td title='UnitTests.DataProviderFactoryTests.dataProviderInstaceTest()'><b>dataProviderInstaceTest</b><br>Test class: UnitTests.DataProviderFactoryTests</td>
+<td><div><pre>java.lang.NoClassDefFoundError: org/apache/poi/ss/usermodel/Cell
+	at Factories.DataProviderReaderFactory.getTestDataProvider(DataProviderReaderFactory.java:36)
+	at UnitTests.DataProviderFactoryTests.dataProviderInstaceTest(DataProviderFactoryTests.java:31)
+Caused by: java.lang.ClassNotFoundException: org.apache.poi.ss.usermodel.Cell
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 26 more
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace25221135", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace25221135'><pre>java.lang.NoClassDefFoundError: org/apache/poi/ss/usermodel/Cell
+	at Factories.DataProviderReaderFactory.getTestDataProvider(DataProviderReaderFactory.java:36)
+	at UnitTests.DataProviderFactoryTests.dataProviderInstaceTest(DataProviderFactoryTests.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.TestNG.privateMain(TestNG.java:1366)
+	at org.testng.TestNG.main(TestNG.java:1335)
+Caused by: java.lang.ClassNotFoundException: org.apache.poi.ss.usermodel.Cell
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 26 more
+</pre></div></td>
+<td>0</td>
+<td>UnitTests.DataProviderFactoryTests@1afea7d</td></tr>
 <tr>
 <td title='UnitTests.RunConfigurationTests.testIEBrowserPath()'><b>testIEBrowserPath</b><br>Test class: UnitTests.RunConfigurationTests</td>
 <td><div><pre>java.lang.NoClassDefFoundError: org/junit/Assert
@@ -138,8 +326,8 @@ Caused by: java.lang.ClassNotFoundException: org.junit.Assert
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
 	... 25 more
-... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace18847902", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace18847902'><pre>java.lang.NoClassDefFoundError: org/junit/Assert
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace20712215", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace20712215'><pre>java.lang.NoClassDefFoundError: org/junit/Assert
 	at UnitTests.RunConfigurationTests.testIEBrowserPath(RunConfigurationTests.java:38)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -173,13 +361,13 @@ Caused by: java.lang.ClassNotFoundException: org.junit.Assert
 	... 25 more
 </pre></div></td>
 <td>0</td>
-<td>UnitTests.RunConfigurationTests@46a697</td></tr>
+<td>UnitTests.RunConfigurationTests@1828a0f</td></tr>
 <tr>
 <td title='UnitTests.RunConfigurationTests.testPageLoadTimeout()'><b>testPageLoadTimeout</b><br>Test class: UnitTests.RunConfigurationTests</td>
 <td><div><pre>java.lang.NoClassDefFoundError: org/junit/Assert
 	at UnitTests.RunConfigurationTests.testPageLoadTimeout(RunConfigurationTests.java:32)
-... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace297981", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace297981'><pre>java.lang.NoClassDefFoundError: org/junit/Assert
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace30728890", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace30728890'><pre>java.lang.NoClassDefFoundError: org/junit/Assert
 	at UnitTests.RunConfigurationTests.testPageLoadTimeout(RunConfigurationTests.java:32)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -207,7 +395,7 @@ Caused by: java.lang.ClassNotFoundException: org.junit.Assert
 	at org.testng.TestNG.main(TestNG.java:1335)
 </pre></div></td>
 <td>0</td>
-<td>UnitTests.RunConfigurationTests@46a697</td></tr>
+<td>UnitTests.RunConfigurationTests@1828a0f</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -220,12 +408,12 @@ Caused by: java.lang.ClassNotFoundException: org.junit.Assert
 <td title='UnitTests.TestDataProviderTests.testProductID()'><b>testProductID</b><br>Test class: UnitTests.TestDataProviderTests</td>
 <td></td>
 <td>0</td>
-<td>UnitTests.TestDataProviderTests@1f205aa</td></tr>
+<td>UnitTests.TestDataProviderTests@bfe836</td></tr>
 <tr>
 <td title='UnitTests.TestDataProviderTests.testUserName()'><b>testUserName</b><br>Test class: UnitTests.TestDataProviderTests</td>
 <td></td>
 <td>0</td>
-<td>UnitTests.TestDataProviderTests@1f205aa</td></tr>
+<td>UnitTests.TestDataProviderTests@bfe836</td></tr>
 </table><p>
 </body>
 </html>
