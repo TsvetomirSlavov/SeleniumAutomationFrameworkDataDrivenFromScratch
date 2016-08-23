@@ -35,7 +35,7 @@ public class RunConfigurationReader {
 		List<String> browserList = new ArrayList<String>();		
 		for(int i = 0; i < browserArray.length; i++)
 		{
-			browserList.add(browserArray[i]);
+			browserList.add(browserArray[i].trim());
 		}
 		return browserList;
 	}
@@ -70,6 +70,16 @@ public class RunConfigurationReader {
 	public String getChromeServerPath()
 	{
 		return propertyFile.getProperty("ChromeServerPath");
+	}
+	
+	public String getOperaServerPath()
+	{
+		return propertyFile.getProperty("OperaServerPath");
+	}
+	
+	public String getFirefoxServerPath()
+	{
+		return propertyFile.getProperty("FirefoxServerPath");
 	}
 	
 	public List<String> getRunXmls(){

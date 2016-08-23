@@ -10,6 +10,7 @@ import org.testng.annotations.Test;
 
 import Factories.BrowserFactory;
 import Factories.DataProviderFactory;
+import Factories.ReporterFactory;
 import PageObjects.HomePageObjects.HomePagePOM;
 import PageObjects.LoginPageObjects.LoginPagePOM;
 
@@ -28,13 +29,17 @@ public class LoginTests {
 		//Increment by one for each test
 		//completeTestName loval variable matches the required parameter for the methods get of DataProviderReaderFactory class which we create a String object
 		String completeTestName = testCaseName + "001";
-		WebDriver driver = BrowserFactory.getBrowser("Firefox");
+		ReporterFactory.getReporter().startTest(completeTestName);
+		WebDriver driver = BrowserFactory.getBrowser();
 		//declaring implicit wait     		
 		//driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 		driver.get("http://store.demoqa.com");
+		ReporterFactory.getReporter().log("Successfully navigated to http://store.demoqa.com");
 		HomePagePOM homePage = PageFactory.initElements(driver, HomePagePOM.class);
+		ReporterFactory.getReporter().log("Successfully created HomePage factory");
 		homePage.clickMyAccountLink();
-		LoginPagePOM loginPage = PageFactory.initElements(driver, LoginPagePOM.class);		
+		LoginPagePOM loginPage = PageFactory.initElements(driver, LoginPagePOM.class);
+		ReporterFactory.getReporter().log("Successfully created LoginPage factory");
 		//Fetch Data
 		String userName = DataProviderFactory.getTestDataProvider().getUsername(completeTestName);		
 		loginPage.setUserName(userName);
@@ -43,8 +48,8 @@ public class LoginTests {
 		loginPage.setPassword(password);
 		loginPage.clickLogin();
 		Assert.assertTrue(loginPage.isUsernameBoxVisible() && loginPage.isUsenameBoxEnabled(), "Login button is not present that means that we logged in using invalid login credentials");
-		
-		
+		ReporterFactory.getReporter().log("Using invalid login credentials test passed");
+		ReporterFactory.getReporter().stopTest(completeTestName);
 	}
 	
 	

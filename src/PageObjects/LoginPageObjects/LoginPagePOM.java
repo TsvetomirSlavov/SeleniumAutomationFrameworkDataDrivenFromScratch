@@ -1,7 +1,11 @@
 package PageObjects.LoginPageObjects;
 
+import java.io.IOException;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+
+import Factories.ReporterFactory;
 
 public class LoginPagePOM {
 	
@@ -37,11 +41,12 @@ public class LoginPagePOM {
 	
 	
 	
-	public void setUserName(String userName){
+	public void setUserName(String userName) throws IOException{
 		//First check that the username edit box is visible and enabled
 		//Perform a sendkeys to set the username
 		if(isUsernameBoxVisible() && isUsenameBoxEnabled()){
 			userNameEditBox.sendKeys(userName);
+			ReporterFactory.getReporter().log("Successfully set user name " + userName);
 		}
 		else{
 			//basically log an error
@@ -66,11 +71,12 @@ public class LoginPagePOM {
 		}
 	}
 	
-	public void setPassword(String password){
+	public void setPassword(String password) throws IOException{
 		//First check that the password edit box is visible and enabled
 		//Perform a sendkeys to set the password
 		if(isPasswordBoxEnabled() && isPasswordBoxVisible()){
 			passwordEditBox.sendKeys(password);
+			ReporterFactory.getReporter().log("Successfully set user name " + password);
 		}
 		else{
 			//basically log an error
