@@ -2,37 +2,37 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="P2 Tests" duration-ms="8060" started-at="2016-08-22T00:13:36Z" finished-at="2016-08-22T00:13:44Z">
+  <suite name="P2 Tests" duration-ms="13568" started-at="2016-08-23T06:33:52Z" finished-at="2016-08-23T06:34:05Z">
     <groups>
       <group name="P2">
-        <method signature="HomePageTests.verifyLoginNavigation()[pri:0, instance:Tests.HomePageTests.HomePageTests@a50da]" name="verifyLoginNavigation" class="Tests.HomePageTests.HomePageTests"/>
+        <method signature="HomePageTests.verifyLoginNavigation()[pri:0, instance:Tests.HomePageTests.HomePageTests@19b7a8a]" name="verifyLoginNavigation" class="Tests.HomePageTests.HomePageTests"/>
       </group> <!-- P2 -->
     </groups>
-    <test name="P2 Test Run" duration-ms="8060" started-at="2016-08-22T00:13:36Z" finished-at="2016-08-22T00:13:44Z">
+    <test name="P2 Test Run" duration-ms="13568" started-at="2016-08-23T06:33:52Z" finished-at="2016-08-23T06:34:05Z">
       <class name="Tests.HomePageTests.HomePageTests">
-        <test-method status="PASS" signature="verifyLoginNavigation()[pri:0, instance:Tests.HomePageTests.HomePageTests@a50da]" name="verifyLoginNavigation" duration-ms="8051" started-at="2016-08-21T19:13:36Z" finished-at="2016-08-21T19:13:44Z">
+        <test-method status="PASS" signature="verifyLoginNavigation()[pri:0, instance:Tests.HomePageTests.HomePageTests@19b7a8a]" name="verifyLoginNavigation" duration-ms="13566" started-at="2016-08-23T01:33:52Z" finished-at="2016-08-23T01:34:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginNavigation -->
       </class> <!-- Tests.HomePageTests.HomePageTests -->
     </test> <!-- P2 Test Run -->
   </suite> <!-- P2 Tests -->
-  <suite name="P1 Tests" duration-ms="37992" started-at="2016-08-22T00:12:58Z" finished-at="2016-08-22T00:13:36Z">
+  <suite name="P1 Tests" duration-ms="14852" started-at="2016-08-23T06:33:37Z" finished-at="2016-08-23T06:33:52Z">
     <groups>
       <group name="P1">
-        <method signature="HomePageTests.verifyMyAccountLinkPresent()[pri:0, instance:Tests.HomePageTests.HomePageTests@1bb8443]" name="verifyMyAccountLinkPresent" class="Tests.HomePageTests.HomePageTests"/>
-        <method signature="LoginTests.invalidLogin()[pri:0, instance:Tests.LoginTests.LoginTests@44d69d]" name="invalidLogin" class="Tests.LoginTests.LoginTests"/>
+        <method signature="HomePageTests.verifyMyAccountLinkPresent()[pri:0, instance:Tests.HomePageTests.HomePageTests@1ca0d64]" name="verifyMyAccountLinkPresent" class="Tests.HomePageTests.HomePageTests"/>
+        <method signature="LoginTests.invalidLogin()[pri:0, instance:Tests.LoginTests.LoginTests@180945f]" name="invalidLogin" class="Tests.LoginTests.LoginTests"/>
       </group> <!-- P1 -->
     </groups>
-    <test name="P1 Test Run" duration-ms="37992" started-at="2016-08-22T00:12:58Z" finished-at="2016-08-22T00:13:36Z">
+    <test name="P1 Test Run" duration-ms="14852" started-at="2016-08-23T06:33:37Z" finished-at="2016-08-23T06:33:52Z">
       <class name="Tests.HomePageTests.HomePageTests">
-        <test-method status="PASS" signature="verifyMyAccountLinkPresent()[pri:0, instance:Tests.HomePageTests.HomePageTests@1bb8443]" name="verifyMyAccountLinkPresent" duration-ms="29198" started-at="2016-08-21T19:12:58Z" finished-at="2016-08-21T19:13:28Z">
+        <test-method status="PASS" signature="verifyMyAccountLinkPresent()[pri:0, instance:Tests.HomePageTests.HomePageTests@1ca0d64]" name="verifyMyAccountLinkPresent" duration-ms="9670" started-at="2016-08-23T01:33:37Z" finished-at="2016-08-23T01:33:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyMyAccountLinkPresent -->
       </class> <!-- Tests.HomePageTests.HomePageTests -->
       <class name="Tests.LoginTests.LoginTests">
-        <test-method status="PASS" signature="invalidLogin()[pri:0, instance:Tests.LoginTests.LoginTests@44d69d]" name="invalidLogin" duration-ms="8696" started-at="2016-08-21T19:13:28Z" finished-at="2016-08-21T19:13:36Z">
+        <test-method status="PASS" signature="invalidLogin()[pri:0, instance:Tests.LoginTests.LoginTests@180945f]" name="invalidLogin" duration-ms="5181" started-at="2016-08-23T01:33:47Z" finished-at="2016-08-23T01:33:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLogin -->

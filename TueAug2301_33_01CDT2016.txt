@@ -1,0 +1,164 @@
+Starting tests with browser PhantomJS
+================================================
+==== Starting test P1 Tests========
+================================================
+++++++++++++++++++++++++++++++++++++++++++++++++
++++++ Starting test verifyMyAccountLinkPresent++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++
++++++ Starting test HomePageTests001++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++
+Successfully navigated to the page http://store.demoqa.com
+Created home page factory
+My Account link is displayed
+Home page link is visible and clickable
+++++++++++++++++++++++++++++++++++++++++++++++++
++++++ Stopping test HomePageTests001++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+Following test passed++++++++++++++++++++++++++++++++++++++++++++++++
++++++ Stopping test null++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++
++++++ Starting test invalidLogin++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++
++++++ Starting test LoginTest001++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++
+Successfully navigated to http://store.demoqa.com
+Successfully created HomePage factory
+Successfully clicked My Account link
+Successfully created LoginPage factory
+Successfully set user name loginTest001
+Successfully set user name loginPassword001
+Using invalid login credentials test passed
+++++++++++++++++++++++++++++++++++++++++++++++++
++++++ Stopping test LoginTest001++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+Following test passed++++++++++++++++++++++++++++++++++++++++++++++++
++++++ Stopping test null++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+================================================
+===== Stopping test P1 Tests=======
+================================================
+
+
+================================================
+==== Starting test P2 Tests========
+================================================
+++++++++++++++++++++++++++++++++++++++++++++++++
++++++ Starting test verifyLoginNavigation++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++
++++++ Starting test HomePageTests002++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++
+Successfully navigated to the page http://store.demoqa.com
+Created home page factory
+Successfully clicked My Account link
+clicked on My Account link
+Reached to the correct page after clicking on My Account link. Actual URL http://store.demoqa.com/products-page/your-account/
+++++++++++++++++++++++++++++++++++++++++++++++++
++++++ Stopping test HomePageTests002++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+Following test passed++++++++++++++++++++++++++++++++++++++++++++++++
++++++ Stopping test null++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+================================================
+===== Stopping test P2 Tests=======
+================================================
+
+
+Stopping tests with browser PhantomJS
+Starting tests with browser Chrome
+================================================
+==== Starting test P1 Tests========
+================================================
+++++++++++++++++++++++++++++++++++++++++++++++++
++++++ Starting test verifyMyAccountLinkPresent++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++
++++++ Starting test HomePageTests001++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++
+Successfully navigated to the page http://store.demoqa.com
+Created home page factory
+My Account link is displayed
+Home page link is visible and clickable
+++++++++++++++++++++++++++++++++++++++++++++++++
++++++ Stopping test HomePageTests001++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+Following test passed++++++++++++++++++++++++++++++++++++++++++++++++
++++++ Stopping test null++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++
++++++ Starting test invalidLogin++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++
++++++ Starting test LoginTest001++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++
+Successfully navigated to http://store.demoqa.com
+Successfully created HomePage factory
+Successfully clicked My Account link
+Successfully created LoginPage factory
+Successfully set user name loginTest001
+Successfully set user name loginPassword001
+Using invalid login credentials test passed
+++++++++++++++++++++++++++++++++++++++++++++++++
++++++ Stopping test LoginTest001++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+Following test passed++++++++++++++++++++++++++++++++++++++++++++++++
++++++ Stopping test null++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+================================================
+===== Stopping test P1 Tests=======
+================================================
+
+
+================================================
+==== Starting test P2 Tests========
+================================================
+++++++++++++++++++++++++++++++++++++++++++++++++
++++++ Starting test verifyLoginNavigation++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++
++++++ Starting test HomePageTests002++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++
+Successfully navigated to the page http://store.demoqa.com
+Created home page factory
+Successfully clicked My Account link
+clicked on My Account link
+Reached to the correct page after clicking on My Account link. Actual URL http://store.demoqa.com/products-page/your-account/
+++++++++++++++++++++++++++++++++++++++++++++++++
++++++ Stopping test HomePageTests002++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+Following test passed++++++++++++++++++++++++++++++++++++++++++++++++
++++++ Stopping test null++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+================================================
+===== Stopping test P2 Tests=======
+================================================
+
+
+Stopping tests with browser Chrome
